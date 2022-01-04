@@ -1,0 +1,3 @@
+# Ignore backup and vs config directory.
+/Backup
+/.vscode

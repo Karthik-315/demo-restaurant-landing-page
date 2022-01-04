@@ -1,0 +1,30 @@
+$bodyBackground: #f3f3f3;
+$secondaryBackground: #1a1a1a;
+$footerIconBackground: #333;
+
+$textColor: #333;
+$secondaryTextColor: white;
+
+$captionColorDark: #999;
+$captionColorLight: #eee;
+
+$primaryColor: white;
+$secondaryColor: rgb(240, 168, 13);
+$separatorColor: linear-gradient(
+    to right,
+    rgba(240, 168, 13, 0.1) 0%,
+    rgba(240, 168, 13, 0.2) 30%,
+    rgba(240, 168, 13, 0.4) 49%,
+    rgba(240, 168, 13, 0.4) 51%,
+    rgba(240, 168, 13, 0.2) 70%,
+    rgba(240, 168, 13, 0.1) 100%
+);
+
+$translucentWhite: rgba(255, 255, 255, 0.7);
+$textFilterBG: rgba(0, 0, 0, 0.4);
+
+$gradientBackground: linear-gradient(to bottom, rgb(235, 163, 8), rgb(245, 169, 6));
+
+$buttonBoxShadowColor: rgb(128, 128, 128);
+$inactiveSlideDotColor: #ccc;
+$activeSlideDotColor: $secondaryColor;

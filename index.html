@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <title>Mike Wazowski Restaurant Landing Page</title>
+        <script defer src="scripts/app.js"></script>
+        <script
+            src="https://kit.fontawesome.com/b798e919c8.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body class="body">
+        <header class="header">
+            <section class="header__section header__section--title">
+                <article class="article">
+                    <h1 class="header__title fs-250">
+                        <span class="header__title--focus-letter fs-350">M</span>ike
+                        <span class="header__title--focus-letter fs-350">W</span>azowski
+                    </h1>
+                    <h5 class="fs-150 header__title--restaurant">Restaurant</h5>
+                </article>
+                <figure class="header__logo">
+                    <img src="./images/logo_128.png" class="header__logo-image" />
+                </figure>
+            </section>
+
+            <section class="header__section header__section--nav">
+                <nav class="header__nav">
+                    <ul class="header__links">
+                        <div class="header_links--general">
+                            <div class="links__button-container">
+                                <button class="button header__links-button fs-150">
+                                    <span class="header__links-button--text">More</span>
+                                    <i
+                                        class="fas fa-caret-down header__links-button--icon"
+                                    ></i>
+                                </button>
+                            </div>
+
+                            <div class="links__general-container">
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--home link fs-150">Home</a>
+                                </li>
+
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--contact link fs-150"
+                                        >Catering Services</a
+                                    >
+                                </li>
+
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--contact link fs-150"
+                                        >Bar</a
+                                    >
+                                </li>
+
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--contact link fs-150">
+                                        Locations</a
+                                    >
+                                </li>
+
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--contact link fs-150"
+                                        >Our Menu</a
+                                    >
+                                </li>
+
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--contact link fs-150"
+                                        >Contact Us</a
+                                    >
+                                </li>
+
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--about link fs-150"
+                                        >About</a
+                                    >
+                                </li>
+
+                                <li class="header__link-item">
+                                    <a href="#" class="header__link--about link fs-150"
+                                        >Reviews</a
+                                    >
+                                </li>
+                            </div>
+                        </div>
+
+                        <div class="header_links--reservation">
+                            <li class="header__link-item item-reservation">
+                                <a href="#" class="header__link--reservation link fs-120">
+                                    <!-- <i class="icon header__reservation--icon"></i> -->
+                                    <span class="header__icon--text fs-120">Book a table</span>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main class="main">
+            <section class="section section--intro">
+                <article class="article">
+                    <h2 class="fs-200 article__title article__title--intro">Who TF are we?</h2>
+                    <p class="fs-120 article__content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+                        sapiente aperiam beatae dolore aliquam voluptatem, amet odit.
+                        Dignissimos numquam molestias eaque, labore cum minima autem dolorum
+                        consectetur accusantium sapiente aperiam cumque nulla dicta deserunt
+                        necessitatibus, sunt quod ipsa amet obcaecati?
+                    </p>
+                </article>
+
+                <article class="article">
+                    <figure class="article__image-container">
+                        <img
+                            src="./images/kitchen_1.jpg"
+                            alt="Kitchen"
+                            class="article__image article__image--intro"
+                        />
+                        <figcaption
+                            class="article__figure__caption article__figure__caption--intro"
+                        >
+                            A restaurant kitchen. Nothing more.
+                        </figcaption>
+                    </figure>
+                </article>
+            </section>
+
+            <hr class="section-separator" />
+
+            <section class="section section--qualities">
+                <article class="article article-qualities--title">
+                    <h2 class="fs-200 article__title article__title--qualities">
+                        So, What makes us great?
+                    </h2>
+                </article>
+
+                <article class="article article-qualities--content">
+                    <div class="quality-container container--top" data-quality="food">
+                        <h3 class="fs-120 quality-title">Unmatched Tasty Food</h3>
+                    </div>
+                    <div class="quality-container container--top" data-quality="chef">
+                        <h3 class="fs-120 quality-title">Well Trained Chef</h3>
+                    </div>
+                    <div class="quality-container container--top" data-quality="service">
+                        <h3 class="fs-120 quality-title">Excellent Service</h3>
+                    </div>
+
+                    <div class="quality-container container--bottom" data-quality="produce">
+                        <h3 class="fs-120 quality-title">Fresh and Good Quality Produce</h3>
+                    </div>
+
+                    <div class="quality-container container--bottom" data-quality="bar">
+                        <h3 class="fs-120 quality-title">Bar</h3>
+                    </div>
+
+                    <div class="quality-container container--bottom" data-quality="interior">
+                        <h3 class="fs-120 quality-title">A Great Interior</h3>
+                    </div>
+                </article>
+            </section>
+
+            <hr class="section-separator" />
+
+            <section class="section section--reviews">
+                <article class="article article-reviews--intro">
+                    <div class="review--text-container">
+                        <h2 class="fs-200 article__title review-title">
+                            Checkout what people think of us!
+                        </h2>
+                        <p class="fs-120 article__content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
+                            commodi tempore mollitia iure a maiores rerum officia assumenda!
+                            Voluptatum beatae dolorum illum tempora veniam adipisci aliquam!
+                            Tempora quisquam, inventore quos maxime laudantium modi in. Atque
+                            consequatur debitis, assumenda ab cupiditate quae ratione, quasi
+                            autem animi veritatis, maiores id incidunt modi minima perferendis
+                            suscipit nulla necessitatibus numquam nihil? Amet nesciunt ex
+                            ipsam. Fugiat cupiditate id aspernatur nemo reprehenderit! Maiores
+                            debitis asperiores optio voluptas, facilis ea, illum, quam iure
+                            odio hic id.
+                        </p>
+                    </div>
+
+                    <div class="review--image-container">
+                        <figure class="article__image-container">
+                            <img
+                                src="./images/customers_1.jpg"
+                                alt="Kitchen"
+                                class="article__image article__image--reviews"
+                            />
+                            <figcaption
+                                class="article__figure__caption article__figure__caption--intro"
+                            >
+                                A group of confused people. (Except for the guy to the lower
+                                left. He clearly looks constipated)
+                            </figcaption>
+                        </figure>
+                    </div>
+                </article>
+
+                <article class="article article-reviews--slider">
+                    <div class="reviews-slide-container">
+                        <div class="reviews-slide slide--1">
+                            <figure class="reviews-slide--image-container">
+                                <img
+                                    src="./images/user_3.jpg"
+                                    alt="Random User"
+                                    class="reviews-slide-image"
+                                />
+
+                                <figcaption class="reviews-slide-caption fs-120">
+                                    Wonder Woman
+                                </figcaption>
+                            </figure>
+
+                            <div class="reviews-slide--text-container">
+                                <h3 class="review-title fs-150">
+                                    Excellent Taste! Great Service!
+                                </h3>
+                                <h4 class="review-rating fs-100">Rating: 4.5/5</h4>
+                                <p class="fs-120 review-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Atque, consequuntur voluptatibus. Quam ut maxime tempora,
+                                    nulla id aut eligendi ducimus nesciunt, amet voluptates,
+                                    neque eum. Pariatur nisi iure nemo facilis a adipisci eaque
+                                    quidem sapiente. Minima est quas vitae possimus!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-slide-container">
+                        <div class="reviews-slide slide--2">
+                            <figure class="reviews-slide--image-container">
+                                <img
+                                    src="./images/user_1.jpg"
+                                    alt="Random User"
+                                    class="reviews-slide-image"
+                                />
+
+                                <figcaption class="reviews-slide-caption fs-120">
+                                    Alexander Flemming
+                                </figcaption>
+                            </figure>
+
+                            <div class="reviews-slide--text-container">
+                                <h3 class="review-title fs-150">
+                                    I Had The Water, It Was RAAAWWWW!
+                                </h3>
+                                <h4 class="review-rating fs-100">Rating: 1.5/5</h4>
+                                <p class="fs-120 review-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Commodi corporis officiis reiciendis? Quas quibusdam, error
+                                    officiis corporis porro molestiae eos soluta nobis ipsum
+                                    laudantium impedit itaque. Non nam eaque, magnam, quis
+                                    sequi dolores maiores molestias incidunt architecto officia
+                                    ad voluptates dolorem odit aut magni corporis minus
+                                    corrupti dignissimos explicabo mollitia sapiente! Fuga,
+                                    incidunt delectus? Eveniet tempora impedit nemo iste sed
+                                    illo eum quam ipsam distinctio? Temporibus dolorem nemo
+                                    illo adipisci voluptatum, sit voluptatem, quibusdam soluta
+                                    velit commodi qui obcaecati id!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-slide-container">
+                        <div class="reviews-slide slide--1">
+                            <figure class="reviews-slide--image-container">
+                                <img
+                                    src="./images/user_2.jpg"
+                                    alt="Random User"
+                                    class="reviews-slide-image"
+                                />
+
+                                <figcaption class="reviews-slide-caption fs-120">
+                                    Dovahkiin
+                                </figcaption>
+                            </figure>
+
+                            <div class="reviews-slide--text-container">
+                                <h3 class="review-title fs-150">Where am I?</h3>
+                                <h4 class="review-rating fs-100">Rating: 2.5/5</h4>
+                                <p class="fs-120 review-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Commodi corporis officiis reiciendis? Quas quibusdam, error
+                                    officiis corporis porro molestiae eos soluta nobis
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-slide-container">
+                        <div class="reviews-slide slide--1">
+                            <figure class="reviews-slide--image-container">
+                                <img
+                                    src="./images/user_4.jpg"
+                                    alt="Random User"
+                                    class="reviews-slide-image"
+                                />
+
+                                <figcaption class="reviews-slide-caption fs-120">
+                                    Mark Twain
+                                </figcaption>
+                            </figure>
+
+                            <div class="reviews-slide--text-container">
+                                <h3 class="review-title fs-150">Meh! It was okay...</h3>
+                                <h4 class="review-rating fs-100">Rating: 3/5</h4>
+                                <p class="fs-120 review-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Commodi corporis officiis reiciendis? Quas quibusdam, error
+                                    officiis corporis porro molestiae eos soluta nobis
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <button class="reviews-button button--left fs-200">&#11160;</button>
+                    <button class="reviews-button button--right fs-200">&#11162;</button> -->
+                    <button class="reviews-button button--left fs-200">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="reviews-button button--right fs-200">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="reviews-slide-dots">
+                        <!-- 
+							<button class="reviews-slide-dot" data-slide=1></button> 
+							<button class="reviews-slide-dot" data-slide=1></button> 
+							<button class="reviews-slide-dot" data-slide=1></button> 
+							<button class="reviews-slide-dot" data-slide=1></button> 
+						-->
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <div class="blur-overlay hidden"></div>
+
+        <footer class="footer">
+            <section class="footer__section">
+                <article class="article footer__credits">
+                    <button class="button credits-modal-button">Credits</button>
+                    <div class="credits__modal">
+                        <button class="button close-modal-button fs-200">&times;</button>
+                        <h2 class="credits__title">Links to artists who contributed</h2>
+                        <!-- prettier-ignore -->
+                        <ul class="credits__list">
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://unsplash.com/@spencerdavis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Spencer Davis
+                                </a>
+                                from
+                                <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Unsplash
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a href="https://unsplash.com/@briewilly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Chad Montano
+                                </a>
+                                from
+                                <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Unsplash
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                    href="https://pixabay.com/users/antonytrivet-3549802/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5993951"
+                                    class="credits__link" target="_blank">
+                                    Antony Trivet
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5993951"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://pixabay.com/users/ticwebapp-857030/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=677624"
+                                    class="credits__link" target="_blank">
+                                    ticwebapp
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=677624"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1845295"
+                                    class="credits__link" target="_blank">
+                                    Pexels
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1845295"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://unsplash.com/@annapelzer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Anna Pelzer
+                                </a>
+                                from
+                                <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Unsplash
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a href="https://unsplash.com/@kcurtis113?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Kevin Curtis
+                                </a>
+                                from
+                                <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    class="credits__link" target="_blank">
+                                    Unsplash
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://www.pexels.com/@elletakesphotos?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"
+                                    class="credits__link" target="_blank">
+                                    Elle Hughes
+                                </a>
+                                from
+                                <a href="https://www.pexels.com/photo/man-and-woman-wearing-black-and-white-striped-aprons-cooking-2696064/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels"
+                                    class="credits__link" target="_blank">
+                                    Pexels
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2623071"
+                                    class="credits__link" target="_blank">
+                                    StockSnap
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2623071"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://pixabay.com/users/familyphotostudio-2111903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1460150"
+                                    class="credits__link" target="_blank">
+                                    Nathanel Love
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1460150"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://pixabay.com/users/yleoricki-3708994/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1807190"
+                                    class="credits__link" target="_blank">
+                                    yleoricki
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1807190"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://pixabay.com/users/tmorales015-11596426/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3994985"
+                                    class="credits__link" target="_blank">
+                                    tmorales015
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3994985"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+
+                            <li class="credits__list-item">
+                                <a 
+                                href="https://pixabay.com/users/katarzynahasnik-10661611/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4525710"
+                                    class="credits__link" target="_blank">
+                                    Katarzyna Hasnik
+                                </a>
+                                from
+                                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4525710"
+                                    class="credits__link" target="_blank">
+                                    Pixabay
+                                </a>
+                            </li>
+                            
+                            <li class="credits__list-item">
+                                <span>Icons from: </span>
+                                <a href="https://fontawesome.com/"
+                                    class="credits__link" target="_blank">
+                                    Font Awesome
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="article footer__about-me">
+                    <div>
+                        <p class="footer__about-me--title fs-120">Developed by</p>
+                        <p class="footer__about-me--name fs-150">Karthik S Kumar</p>
+                    </div>
+                </article>
+
+                <article class="article footer__my-links">
+                    <ul class="my-links__list">
+                        <li class="fs-120 my-links__list-item">
+                            <a href="#" class="link icon-link twitter-link" target="_blank">
+                                <i class="fab fa-twitter icon fs-200"></i>
+                            </a>
+                        </li>
+
+                        <li class="fs-120 my-links__list-item">
+                            <a href="#" class="link icon-link coffee-link" target="_blank">
+                                <i class="fas fa-mug-hot fs-200"></i>
+                            </a>
+                        </li>
+
+                        <li class="fs-120 my-links__list-item">
+                            <a href="#" class="link icon-link github-link" target="_blank">
+                                <i class="fab fa-github icon fs-200"></i>
+                            </a>
+                        </li>
+
+                        <li class="fs-120 my-links__list-item list-item-surprise">
+                            <a href="#" class="link icon-link surprise-link" target="_blank">
+                                <i class="fas fa-question-circle fs-200"></i>
+                            </a>
+
+                            <span class="surprise-link-text">
+                                Click for a bIlLiOn dolLaRs!
+                            </span>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </footer>
+    </body>
+</html>
