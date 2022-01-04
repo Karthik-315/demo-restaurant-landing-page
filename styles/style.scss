@@ -24,8 +24,8 @@ body {
 
 .header {
     @include useFlex($dir: column, $justifyDir: space-between);
-    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("../images/header_image.jpg"); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url("../images/header_image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
