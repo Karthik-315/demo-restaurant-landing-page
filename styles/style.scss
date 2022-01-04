@@ -24,8 +24,10 @@ body {
 
 .header {
     @include useFlex($dir: column, $justifyDir: space-between);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("../images/header_image.jpg") no-repeat center;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url("../images/header_image.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: $secondaryTextColor;
     backdrop-filter: blur(1rem);
@@ -187,13 +189,6 @@ body {
     width: 20px;
     margin: 0 0.4rem;
     padding: 0;
-    background: url("../images/dinner_table.png") no-repeat center;
-    background-size: contain;
-}
-
-.header__link--reservation:hover .header__reservation--icon {
-    background: url("../images/dinner_table_white.png") no-repeat center;
-    background-size: contain;
 }
 
 .header__icon--text {
@@ -530,10 +525,6 @@ body {
 
 .credits__list-item {
     margin: 1rem auto;
-}
-
-.credits__list-item:before {
-    content: "\200B";
 }
 
 .credits__link {

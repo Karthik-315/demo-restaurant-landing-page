@@ -45,6 +45,12 @@ const enableModalClass = `enable-modal`;
 
 // Functions
 
+// Test code to github pages. Will be removed later.
+document.querySelector(
+    ".header"
+).style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+url("../images/header_image.jpg")`;
+
 const setInitialBackground = function () {
     qualitiesContainer.style.backgroundImage = `${imagePreGradient}${initialBgImage}`;
 };
@@ -78,6 +84,7 @@ const setBackground = function (targetImageIndex) {
     allQualities.forEach((title) => (title.style.opacity = 0.4));
     allQualities[targetImageIndex].style.opacity = 1;
 
+    console.log(`Setting background: ${imagePreGradient}url("${bgImageURL}")`);
     qualitiesContainer.style.backgroundImage = `${imagePreGradient}url("${bgImageURL}")`;
 };
 
