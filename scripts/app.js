@@ -23,7 +23,7 @@ const closeModalButton = document.querySelector(".close-modal-button");
 const menuActiveClass = `menu-active`;
 let bgImageURL;
 let imagePreGradient = `linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),`;
-let initialBgImage = `url("../images/qualities_interior.jpg")`;
+let initialBgImage = `url("./images/qualities_interior.jpg")`;
 let imageSlideShowInterval;
 let reviewSlideShowInterval;
 let reviewSlidePauseTimeout;
@@ -190,7 +190,7 @@ qualitiesContainer.addEventListener("mouseover", function (event) {
     if (quality) {
         clearInterval(imageSlideShowInterval);
         const targetImage = `qualities_${quality}`;
-        bgImageURL = `../images/${targetImage}.jpg`;
+        bgImageURL = `./images/${targetImage}.jpg`;
         setBackground(imageList.indexOf(targetImage));
 
         event.target.addEventListener("mouseleave", activateImageSlideshow);
